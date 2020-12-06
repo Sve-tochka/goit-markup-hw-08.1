@@ -1,0 +1,92 @@
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.none {
+  display: none;
+}
+
+img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.link:focus,
+.link:hover {
+  color: $accent-color;
+}
+
+.page {
+  color: $title-text-color;
+  font-family: $primary-font-family, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03rem;
+  .page-header {
+    border-bottom: 2px solid #ececec;
+  }
+}
+
+.conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media screen and (min-width: $mobile) {
+    width: $mobile;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: $tablet;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: $desktop;
+  }
+}
+
+.section {
+  @media screen and(max-width:1199px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: $desktop) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.section-title {
+  color: $primary-text-color;
+  font-family: $primary-font-family;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03rem;
+
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 50px;
+    font-size: 36px;
+  }
+}
