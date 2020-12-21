@@ -1,0 +1,29 @@
+.section {
+    @media screen and(max-width:1199px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    @media screen and (min-width: $desktop) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}
+
+.section-title {
+    color: $primary-text-color;
+    font-family: $primary-font-family;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03rem;
+
+    @media screen and (max-width: 1199px) {
+        margin-bottom: 30px;
+        font-size: 28px;
+    }
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 50px;
+        font-size: 36px;
+    }
+}
