@@ -12,6 +12,7 @@
 .section-title {
     color: $primary-text-color;
     font-family: $primary-font-family;
+    font-size: 28px;
     font-style: normal;
     font-weight: bold;
     line-height: 1.2;
@@ -19,8 +20,7 @@
     letter-spacing: 0.03rem;
 
     @media screen and (max-width: 1199px) {
-        margin-bottom: 30px;
-        font-size: 28px;
+        margin-bottom: 30px;        
     }
     @media screen and (min-width: $desktop) {
         margin-bottom: 50px;

@@ -3,6 +3,7 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    outline: 4px solid olivedrab; /*убрать рамку в конце*/
 
     @media screen and (min-width: $mobile) {
         width: $mobile;

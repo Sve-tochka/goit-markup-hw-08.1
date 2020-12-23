@@ -1,0 +1,43 @@
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.none {
+    display: none;
+}
+
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.link:focus,
+.link:hover {
+    color: $accent-color;
+}
+
+.page {
+    color: $title-text-color;
+    font-family: $primary-font-family, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03rem;
+    .page-header {
+        border-bottom: 2px solid #ececec;
+    }
+}
